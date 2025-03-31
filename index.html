@@ -2,9 +2,21 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>קראטה מנויים</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View My PDF</title>
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
 </head>
 <body style="margin:0;">
-  <embed src="karate-subscriptions.pdf" type="application/pdf" width="100%" height="100%" style="position:absolute; top:0; bottom:0; left:0; right:0;" />
+  <iframe src="https://docs.google.com/gview?embedded=true&url=https://idodoroz4.github.io/karate-subscriptions//karate-subscriptions.pdf"></iframe>
 </body>
 </html>
